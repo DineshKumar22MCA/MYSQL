@@ -1,0 +1,220 @@
+
+
+
+ sql :
+
+  1.SQL stands for Structured Query Language
+  2.SQL lets you access and manipulate databases
+  3.SQL became a standard of the American National Standards Institute (ANSI) in 1986,
+    and of the International Organization for Standardization (ISO) in 1987
+  4.It is used to archive crud operation from database.
+  5.SQL is used to communicate with a database. .
+_______________________________________________________________________________________
+DBMS :
+	
+  1.Database management system(dbms) are software system used to store,retrive,and run queries on data.
+  2.A dbms serves as an interface between an end user and a database,allowing users to creat,update,and 
+    delete data in the database.
+  3.this is interface between user and database.
+  4.types hierechical,networking,nosql,rdbms etc.
+________________________________________________________________________________________
+
+RDBMS :
+
+  1.Relational database management system.
+  2.table structured database called RDBMS.
+  3.rdbms maintain a relational database crud operation
+  4.rdbms used in mysql,microsoft  sql server ,oracle and microsoft access.	
+_________________________________________________________________________________________
+mySql :
+  1.mysql is used rdbms 
+  2.mysql is software for sql language
+  3.free and open source
+  4.used in small and large application.
+  5.interface between user and rdbms.
+________________________________________________________________________________________
+DATA TYPES :
+  1.charracter data
+  2.text data
+  3.numeric 
+  4.temproral data
+_____________________________________________________________________________________
+DATABASE QUERY :
+  1.create database 
+  2.drop databse
+  3.show database
+  4. use database
+  5. same name as database and schema.
+________________________________________________________________________________________
+TABLE QUERY :
+  1.create table tablename
+  2.drop table tablename
+  3.desc table 
+  4.show tables
+  5.insert into tablename values (----)
+  6.alter table 
+  7.update table
+  8.detele from table 
+______________________________________________________________________________________
+SELET AND FROM :
+  1.select is used to select the coloumn 
+    and filter the coloumn from the table
+  2.from is used to mention the table.
+________________________________________________________________________________________
+WHERE CLAUSE :
+  1.the where clause is used to filter record
+  2.it will get record specified the conditions
+  3.operator are used in where clause
+______________________________________________________________________________________
+OPERATORS :
+  1.> ,< ,<=,>=,<>,=
+  2.between,in,not in, like, and ,or ,not
+______________________________________________________________________________________
+ORDER BY :
+  1. it has sorting the selected records
+  2.default ascending
+  3.oder by desc it is used to desending the records
+  4.we can create specific order 
+_____________________________________________________________________________________
+DISTINCT :
+  1. it's removing the duplicate record in the table
+  2. show the recods without duplicates
+_____________________________________________________________________________________
+LIMIT :
+  1.it shows only limited records 
+  2.we should mention  the value of  limits 
+_______________________________________________________________________________________
+ALIAS :
+  1. it is used create temprovery name as coloumn name 
+  2.as key word using and its not  mandatory
+________________________________________________________________________________________
+GROUP BY :
+  1.Group by is used to group the table based on conditions 
+    and analyze values within the group using aggregate functions.
+  2.it used to for filter the table by groups  based on condition.
+  3.without aggrogate funtion it doesn't work
+________________________________________________________________________________________
+HAVING BY :
+  1.Where is used to filter the rows before grouping.
+  2.Having is used to filter the groups.
+  3.its filter grouped table records
+________________________________________________________________________________________
+CONTRAINT :
+  1.SQL constraints are specify the rules data in a table.
+
+TYPES :
+  1.NOT NULL -Ensures that a column cannot have a NULL value
+
+  2.UNIQUE - Ensures that all values in a column are different
+
+  3.PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+
+  4.FOREIGN KEY - A FOREIGN KEY is a field in one table, that refers to the 
+                  PRIMARY KEY in another table.
+
+                  Prevents destroy links between tables
+
+  5.CHECK - Ensures that the values in a column satisfies a specific condition
+
+  6.DEFAULT - Sets a default value for a column if no value is specified
+
+  7.CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+  8.AUTO_INCREAMENT - MySQL uses the AUTO_INCREMENT keyword to perform an auto-increment feature.
+
+                      By default, the starting value for AUTO_INCREMENT is 1, and it will increment 
+                      by 1 for each new record.
+___________________________________________________________________________________________
+INDEX :
+  1.Index are used for fast lookups. Speeds up select query but delays insert/update. 
+    Also take up more memory.
+  2.B-TREE algorithm is used for create index
+  3.creating index for a coloumn that coloumn maintain by another table. it shown will be  sorted 
+_____________________________________________________________________________________________
+ON DELETE :
+  1.it tables had a foreing key we cannot be delete.
+  2.we  want delete it should be use on delete constraint
+  3.it has two types casecas,set null
+    set null - delete record from one table it refers table coloumn will changed by null
+    casecad -  delete record from one table it refers table entire row  will be deleted
+_____________________________________________________________________________________________
+JOINS :
+  1. JOINS are used to get the output and combine the  in two table -- default join as the inner join
+
+  2. LEFT JOIN - it will show all left table records and comman records in right side table
+
+  3.RIGHT JOIN -it will show all right table records and comman records in left side table
+
+  4.CROSS JOIN - cross join are combine each and every record 
+____________________________________________________________________________________________________
+UNION :
+  1.it is used to get output to combine show table
+  2.it must to be same number of feilds
+  3.it must matching data types to feild
+  4.default union cannot filter the duplicate records
+________________________________________________________________________________________________
+SUBQUERIES :
+  1.combine more than two queries
+  2.its inside in where clause
+  3.exits, all, any
+___________________________________________________________________________________________________
+VIEW :
+  1.view is used to create table .that table includes anything we want
+
+  2.we cannot modify . if you want modify replace or view 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
